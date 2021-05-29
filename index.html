@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Masai Weather App</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <!--stylesheet-->
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+  <!--javascript-->
+  <script src='main.js'></script>
+
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+      <!--input element-->
+      <div class="city_input">
+        <input class="inputText" type="text" placeholder="Enter City">
+      </div>
+
+      <p>Enter the date (dd-mm-yyyy) :</p>
+      <div class="date-input">
+        <input type="date" name="begin" placeholder="dd-mm-yyyy" id="date">
+      </div>
+
+    <div class="btn">
+      <button onclick="getWeather()" id="weather-button">Get Weather</button>
+    </div>
+
+    <!--wather information-->
+    <div class="weather-card">
+
+      <div class="left">
+
+        <div class="title">
+          <span class="city-name">Pune</span> , <span class="country">India</span>
+          <div class="subtitle">Sat, May 29,Cloudy</div>
+        </div>
+
+        <div class="temperature">
+          25° C
+        </div>
+
+        <div class="other-info humidity">
+          Humidity: 35%
+        </div>
+
+        <div class="other-info wind">
+          Wind: 7 Km/h
+        </div>
+
+      </div>
+
+      <div class="right">
+        <img class="weather-image" height="100px" src="https://meta-weather.vercel.app/static/img/weather/s.svg">
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
