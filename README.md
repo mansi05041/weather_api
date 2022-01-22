@@ -1,4 +1,4 @@
-#Weather API
+### Weather API
 ## Table of contents
 
 - [Overview](#overview)
