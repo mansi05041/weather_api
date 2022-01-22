@@ -21,7 +21,7 @@ Built Weather API
 ### Links
 
 - Solution URL: [https://github.com/mansi05041/weather_api.github.io]
-- Live Site URL: [https://mansi05041.github.io/weather_api.github.io/]
+- Live Site URL: [https://weather-gilt.vercel.app/]
 
 ## My process
 
